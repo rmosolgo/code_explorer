@@ -1,0 +1,15 @@
+<form action='/new' method='post'>
+	<% if @code %>
+		<input type='hidden' name='_id' value='<%= @code['_id'] %>' />	
+	<% end %>
+	<textarea name='code' rows=15 cols=40><% 
+	if @code
+		@code.delete("_id") %><%= YAML::dump(@code) %><% else %>
+code: ''
+name: ''
+parent: ''
+children: []
+type: ''<% end %></textarea>
+
+	<input type='submit' value='Save new code' />
+</form>

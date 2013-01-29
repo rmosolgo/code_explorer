@@ -1,0 +1,16 @@
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<p id='data'>
+</p>
+<script>
+
+
+	function get_codes_by_parent(parent) {
+		$.post('/query', {parent: parent}, function(data) {
+			console.log(data)
+			$('#data').text(data)
+		})
+	}
+
+	get_codes_by_parent('nil')
+
+</script>

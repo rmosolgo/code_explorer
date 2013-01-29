@@ -1,0 +1,39 @@
+<div class='centered'>
+		<h1> Home </h1>
+		<p><%= @count %> Items.</p>
+</div>
+
+ <%= erb :new_form %>
+
+<h1> Codes </h1>
+
+<table>
+	<thead>
+		<tr>
+			<th> Code </th>
+			<th> Links </th>
+		<tr>
+	</thead>
+	<tbody>
+		
+	<% Code.all.each do |document| %>
+	 		<% @document = document %>
+	 		<%= erb :code_item %>
+	<% end %>
+
+	</tbody>
+</table>
+
+<script>
+	$(function() {
+		
+		$('.editor').hide()
+		$('.edit').click(function() {
+			editor = $('.' + $(this).attr("id") + '.editor')
+			editor.slideToggle()
+			})
+			
+		})
+
+		
+</script>

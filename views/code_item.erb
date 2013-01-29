@@ -1,0 +1,19 @@
+
+<tr> 
+	
+	<td>	<%= @document['code'] %> &rarr; <%= @document['children'].count %> children</td>
+	  
+	<td> <a href='#<%= @document["_id"] %>' class='edit' id='<%= @document["_id"] %>'>Edit</a> </td>
+	<td> <a href='/delete/<%= @document["_id"] %>'>Delete</a> </td>
+
+	<td>
+		<div class="editor <%= @document["_id"] %>">
+ 		 	<form action='/new' method='post'>
+				<input type='hidden' name='_id' value='<%= @document['_id'] %>' />	
+				<textarea name='code' rows=15 cols=40><%= @document.to_yaml %></textarea>
+				<input type='submit' value='Save changes' />
+		 	</form>
+ 		</div> 
+ 	</td>
+</tr>	
+
