@@ -1,0 +1,253 @@
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<div class='row'>
+	<div id='tooltip'  style='display:none;padding:10px;border:1px solid #999;position:absolute;background-color:hsla(255,0%,90%,.8);'>
+		<span id='tooltiptext' style='font-weight:bold;'>Mouseover a code to see detail.
+		</span>
+		<!--
+      <p style='display:inline;'>Children:  </p><ul style='display:inline;'></ul>
+      !-->
+	</div>
+
+
+	<div id='chart' class='span8' style='margin-top:50px'>
+	</div>
+</div>
+<script>
+
+$('#nav_explore').addClass('active')
+
+
+var j=1,
+    w = $('#chart').width(),
+    h = w,
+    r = w / 2,
+    x = d3.scale.linear().range([0, 2 * Math.PI]),
+    y = d3.scale.sqrt().domain([0, .1,  1]).range([1, r/2,  r]),
+    p = 5, // padding
+    c = d3.scale.linear().range(['#ddd', 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+    .domain([0, 1, 250/6, 2*(250/6), 3*(250/6),4*(250/6),5*(250/6), 6*(250/6), ]),
+    duration = 500,
+    minWedge = .075;
+    minWedgeText = 3.5;
+    minWedgeTextL = 60;
+    w+=400;
+
+    start_index_100 = 1
+    start_index_200 = 298
+    start_index_300 = 428
+    start_index_400 = 635
+    start_index_500 = 697
+    start_index_600 = 722
+    start_index_700 = 735
+    start_index_900 = 767
+    end_index = 789
+
+    vis_red = '#d11'
+    vis_orange = '#d71'
+    vis_yellow = '#dd1'
+    vis_yellow_green = '#8d1'
+    vis_green='green'
+    vis_blue= '#47e'
+    vis_indigo = 'indigo'
+
+function revColor (c) {
+  if (c==0) {return '#ddd'}
+  else if (c>=start_index_900&&c<end_index) {
+    newColor = d3.scale.linear().range(['#eee','#777','#eee']).domain([start_index_900, start_index_900+1, end_index-1])
+  } 
+  else if (c>=start_index_700&&c<start_index_900) {
+    newColor = d3.scale.linear().range(['indigo','violet']).domain([start_index_700, start_index_900])
+  }
+  else if (c>=start_index_600&&c<start_index_700) {
+    newColor = d3.scale.linear().range(['darkblue','#253cb7']).domain([start_index_600, start_index_700])
+  }
+  else if (c>=start_index_500&&c<start_index_600) {
+    newColor = d3.scale.linear().range([vis_blue, '#253cb7',vis_blue]).domain([start_index_500, start_index_500+1, start_index_600-1])
+  }
+  else if (c>=start_index_400&&c<start_index_500) {
+    newColor = d3.scale.linear().range([vis_green,vis_yellow_green]).domain([start_index_400, start_index_500])
+  }
+  else if (c>=start_index_300&&c<start_index_400) {
+    newColor = d3.scale.linear().range([vis_yellow,vis_yellow_green,vis_yellow]).domain([start_index_300, start_index_300+1, start_index_400-1])
+  } 
+    else if (c>=start_index_200&&c<start_index_300) {
+    newColor = d3.scale.linear().range([ vis_orange,vis_red, vis_orange]).domain([start_index_200, start_index_200+1, start_index_300-1])
+  }
+  else if (c>=start_index_100&&c<start_index_200) {
+    newColor = d3.scale.linear().range([vis_red, vis_orange, vis_red]).domain([start_index_100,start_index_100+1,start_index_200-1])
+  }
+  return newColor(c);
+}
+var zoom = d3.behavior.zoom().on("zoom", zoomAction)
+function zoomAction() {
+  console.log("here", d3.event.translate,d3.event.scale)
+
+  new_x = (d3.event.translate[0])
+  new_y = (d3.event.translate[1])
+  outer_vis.attr("transform", "translate(" + new_x +", "+ new_y + ")" +
+   " scale(" + d3.event.scale + ")"); 
+}
+
+var outer_vis = d3.select("#chart")
+    .append("svg")
+        .attr("width", w + p * 2)
+        .attr("height", h + p * 2)
+        .style("border", "2px solid #ccc")
+  .append("g")
+    .call(zoom)
+    .append("g")
+
+var vis = outer_vis.append("g")   
+      .attr("transform", "translate(" + (r + p) + "," + (r + p) + ")")
+var partition = d3.layout.partition()
+    .sort(null)
+    .value(function(d) { return d.depth; })
+
+    
+
+var null_arc = d3.svg.arc()
+	.startAngle(0)
+	.endAngle(0)
+    .innerRadius(function(d,i) {return Math.max(0, d.y ? y(d.y) : 0);})
+    .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
+
+var arc = d3.svg.arc()
+    .startAngle(function(d,i) {return Math.max(0, Math.min(2 * Math.PI, x(d.x))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x + d.dx))); })
+    .innerRadius(function(d,i) {return Math.max(0, d.y ? y(d.y) : 0);})
+    .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
+
+
+
+var items, nodes, data;
+
+d3.json("/code_tree", function(purposeCodes) {
+  data=purposeCodes
+make_sunburst(purposeCodes)
+	})
+
+function make_sunburst(purposeCodes) {
+	nodes = partition.nodes(purposeCodes)
+
+	items = vis.selectAll("path").data(nodes)
+	 
+	items.enter().append("path")
+	      .attr("id", function(d, i) { return "path-" + d.code.replace(/\./, ''); }) // the dot messes it up
+	      .attr("class", "wedge")
+	      .attr("d", arc)
+        .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
+	      .style("fill", function(d, i) {return revColor(i);})
+	      .style("stroke", "#000")
+	      .style("opacity", "0")
+	      .style("stroke-weight", .5)
+	      .style("cursor", "pointer")
+        .attr('parent-code', function(d) {return d.parent ? d.parent.code : "" })
+        .attr('datum-index', function(d,i) {return i})
+	      //.on("click", sunburst_click)
+	      .on("mouseover",sunburst_mouseover)
+	      .on("mouseout", sunburst_mouseout)
+		
+    items.transition()
+		  	.delay(function(d, i) {return (i*(1.5))})
+		  	.duration(500)
+		  	.style("opacity", "1")
+
+
+
+}     
+
+function sunburst_click(d) {
+
+    items.transition()
+      .duration(duration)
+	  .ease('sin')
+      .attrTween("d", arcTween(d));
+}
+
+
+function left_panel(d, i) {
+	$('#tooltiptext').text(d.name)
+	/*$('#tooltip ul').html('')
+	d.children.forEach(function(c) {
+		$('#tooltip ul').append("<li class='code-child' style='list-style:none;display:inline;'>"
+      +c.name+
+      ", </li>")
+		})*/
+}
+function change_self_and_parents_of(code, alteration) {
+  this_path = $('#path-'+code.replace(/\./, ''))
+  original_color = d3.rgb(revColor(parseInt(this_path.attr('datum-index'))))
+  if (alteration=='brighter')
+    { 
+      this_path
+        .css("fill", original_color.brighter().brighter())
+        .css("stroke", "white")
+       }
+  else if (alteration == 'original')
+    { this_path
+        .css("fill", original_color)
+        .css("stroke", "black") }  
+
+  if (this_path.attr("parent-code").length > 0) {
+    change_self_and_parents_of(this_path.attr("parent-code"), alteration)
+  }
+}
+
+
+function sunburst_mouseover(d,i){
+    $('#tooltip').show()
+  change_self_and_parents_of(d.code, "brighter")
+	left_panel(d,i)
+}
+
+function sunburst_mouseout(d,i){
+  change_self_and_parents_of(d.code, "original")
+	d3.select(this)
+		.style('stroke', '#000')
+  $('#tooltip').hide()
+}
+
+
+function arcTween(d) {
+  var my = maxY(d),
+      mx = maxX(d),
+      xd = d3.interpolate(x.domain(), [d.x, mx]),
+      //xr = d3.interpolate(x.range(), [d.x ? 2 * Math.PI : 0, 2 * Math.PI])
+      yd = d3.interpolate(y.domain(), [d.y, my]),
+      yr = d3.interpolate(y.range(), [d.y ? 20 : 0, r]);
+  return function(d) {
+    return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
+  };
+}
+
+function maxY(d) {
+  return d.children ? Math.max.apply(Math, d.children.map(maxY)) : d.y + d.dy;
+}
+
+function maxX(d) {
+  return d.children ? Math.max.apply(Math, d.children.map(maxX)) : d.x + d.dx;
+}
+
+function isParentOf(p, c) {
+  if (p === c) return true;
+  if (p.children) {
+    return p.children.some(function(d) {
+      return isParentOf(d, c);
+    });
+  }
+  return false;
+}
+
+
+//Get mouse position and move tooltip
+var mousePosition;
+function updateMousePosition(event) {
+    mousePosition = {left: event.pageX, top: event.pageY}
+     $('div#tooltip').css('left',mousePosition.left + 20)
+     $('div#tooltip').css('top',mousePosition.top-10) 
+}
+$(function(){$(document).mousemove(updateMousePosition);})
+
+</script>

@@ -1,13 +1,13 @@
-<div class='centered'>
-		<h1> Home </h1>
-		<p><%= @count %> Items.</p>
+<p class='btn' id='show_new_code'><i class=''></i>New code</p>
+
+<div id='new_code' class='span12'>
+ <%= erb :new_form %>
 </div>
 
- <%= erb :new_form %>
 
-<h1> Codes </h1>
+<h2><%= @count %> Codes</h2>
 
-<table>
+<table class='table table-hover table-striped'>
 	<thead>
 		<tr>
 			<th> Code </th>
@@ -18,21 +18,19 @@
 		
 	<% Code.all.each do |document| %>
 	 		<% @document = document %>
-	 		<%= erb :code_item %>
+	 		<%= erb :code_tr %>
 	<% end %>
 
 	</tbody>
 </table>
 
 <script>
-	$(function() {
-		
-		$('.editor').hide()
-		$('.edit').click(function() {
-			editor = $('.' + $(this).attr("id") + '.editor')
-			editor.slideToggle()
-			})
-			
+	$('#nav_admin').addClass('active')
+	$(function() {	
+		$('#new_code').hide()
+		$('#show_new_code').click(function() {
+			$('#new_code').show()
+			})			
 		})
 
 		

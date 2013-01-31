@@ -8,18 +8,21 @@ require 'mongo_mapper'
 
 include Mongo
 
-require './helpers'
+require './models'
 
 
 configure do
 	MongoMapper.database = 'code_explorer'
+	Code.ensure_index(:code)
+	Code.ensure_index(:parent)
+	Code.ensure_index(:children)
 end
 
 no_codes_error = ' { "error" : "No codes found." }'
 
 
 get '/' do
-	erb :new_explorer
+	erb :explorer4
 end
 
 
@@ -31,18 +34,30 @@ get '/admin' do
  	erb :index
 end
 
+get '/export' do
+	erb :export
+end
+
+post '/code_tree' do
+	send_file File.expand_path('code_tree.json', settings.public_folder)
+end
+get '/code_tree' do
+	send_file File.expand_path('code_tree.json', settings.public_folder)
+end
+
+
 post '/new' do # post a string of yaml
 	if params[:code] && code = YAML.load(params[:code]) 
 		if code["code"] != ''	
-			p "Code received : #{code["code"]}"	
+			#p "Code received : #{code["code"]}"	
 			if old_version = Code.first(code: code["code"])
-				p "Merging with #{old_version.code}"
+				#p "Merging with #{old_version.code}"
 				old_version.attributes = old_version.attributes.merge!(code)
-				p "Saving: #{old_version.attributes.inspect}"
+				#p "Saving: #{old_version.attributes.inspect}"
 				old_version.save
 				redirect back
 			else
-				p "Creating a new code"
+				#p "Creating a new code"
 				Code.new(code).save
 			end
 		end
@@ -52,6 +67,10 @@ post '/new' do # post a string of yaml
 	end			
 end
 
+get '/edit/:code' do
+	@code = Code.first(code: params[:code]).attributes
+	erb :edit
+end
 get '/delete/:id' do
 	Code.first({ "_id" => BSON::ObjectId(params[:id]) }).delete()
 	redirect back
