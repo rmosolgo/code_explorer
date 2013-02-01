@@ -2,6 +2,9 @@
 
 The code explorer is a richer version of the code wheel: http://bl.ocks.org/d/4637444/
 
+
+Getting there: http://bl.ocks.org/d/4686903/
+
 ## Why make a new one?
 We need a good way to introduce people to the coding scheme. This introduction should be:
 - Simple enough to understand at a glance
