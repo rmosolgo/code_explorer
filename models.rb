@@ -9,6 +9,7 @@ class Code
 	key :children, 	Array
 	key :type,		String
 	key :all_children, Integer
+	key :all_activity_children, Integer
 	timestamps!
 
 	validate :unique_and_valid_code
@@ -35,6 +36,7 @@ class Code
 			return false
 		end
 	end
+
 	def all_children_are_present
 		children.each do |c| 
 			if Code.all({code: c}).count != 1
@@ -55,16 +57,22 @@ class Code
 
  	def set_all_children!
  		count = 0
+ 		activities_count = 0
  		if children.class == Array 
  			count += children.count
  			children.map do |c|
  				if c.class == String && code = Code.first({code: c})
+ 					if code.type == 'activity'
+ 						activities_count +=1
+ 					end
  					code.set_all_children!
  					count += code.all_children || 0
+ 					activities_count += code.all_activity_children|| 0
  				end
  			end
  		end
- 		all_children = count
+ 		self.all_children = count
+ 		self.all_activity_children = activities_count
  		save
  	end
 
