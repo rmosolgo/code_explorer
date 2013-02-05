@@ -1,21 +1,21 @@
 code,name,parent,children,all_children_count
-15261,Child soldiers (Prevention and demobilisation) ,152,"15261.01,15261.02,15261.03",3
+15261,Child soldiers (prevention and demobilisation) ,152,"15261.01,15261.02,15261.03",3
 16030,Housing policy and administrative management,160,"16030.01,16030.02,16030.03",3
 21020,Road transport,210,"21020.01,21020.02,21020.03",3
 12182,Medical research,121,12182.01,3
-15230,Post-conflict peace-building (UN),152,15230.01,3
+15230,Post-conflict peace-building (un),152,15230.01,3
 16050,Multisector aid for social services ,160,16050.01,3
 23050,Gas distribution,230,"23050.01,23050.02",3
-300,PRODUCTION SECTORS,0,"310,320,330",3
-700,HUMANITARIAN AID,0,"70000,720,730,740",3
+300,Production sectors,0,"310,320,330",3
+700,Humanitarian aid,0,"70000,720,730,740",3
 23040,Electrical transmission/ distribution,230,"23040.01,23040.02,23040.03",3
 23055,Petroleum distribution and storage,230,"23055.01,23055.02",3
 24020,Monetary institutions,240,24020.01,3
 24030,Formal sector financial intermediaries,240,"24030.01,24030.02,24030.03",3
-250,BUSINESS AND OTHER SERVICES,200,"25010,25020,25081",3
+250,Business and other services,200,"25010,25020,25081",3
 25020,Privatisation,250,25020.01,3
 25081,Business education and training,250,25081.01,3
-310,"AGRICULTURE, FORESTRY, FISHING",300,"31000,311,312,313",3
+310,"Agriculture, forestry, fishing",300,"31000,311,312,313",3
 31181,Agricultural education/training,311,"31181.01,31181.02",3
 31182,Agricultural research ,311,"31182.01,31182.02,31182.03",3
 31281,Forestry education/training,312,31281.01,3
@@ -25,35 +25,35 @@ code,name,parent,children,all_children_count
 321,Industry,320,"32105,32110,32120,32130,32140,32181,32182,32191",3
 32140,Cottage industries and handicraft,321,32140.01,3
 32181,Industry education and training,321,32181.01,3
-32281,Mining Education / Training,322,32281.01,3
+32281,Mining education / training,322,32281.01,3
 323,Construction,320,32310,3
-33130,Regional trade agreements (RTAs),331,"33130.01,33130.02",3
-330,TRADE AND TOURISM,300,"331,332",3
+33130,Regional trade agreements (rtas),331,"33130.01,33130.02",3
+330,Trade and tourism,300,"331,332",3
 33181,Trade education/training,331,33181.01,3
 41010,Environmental policy and administrative management,410,"41010.01,41010.02,41010.03",3
 41040,Site preservation,410,41040.01,3
-420,WOMEN,400,42010,3
+420,Women,400,42010,3
 43010,Multisector aid,430,43010.01,3
 43081,Multisector education/training,430,43081.01,3
 43082,Research/scientific institutions,430,43082.01,3
-510,GENERAL BUDGET SUPPORT,500,51010,3
-910,ADMINISTRATIVE COSTS OF DONORS,900,91010,3
-92010,Support to national NGOs,920,92010.01,3
-92020,Support to international NGOs,920,92020.01,3
+510,General budget support,500,51010,3
+910,Administrative costs of donors,900,91010,3
+92010,Support to national ngos,920,92010.01,3
+92020,Support to international ngos,920,92020.01,3
 11120.04,Language training,11120,"",3
 21061,Storage,210,21061.01,3
 332,Tourism,330,33210,3
 16010,Social/ welfare services,160,"16010.01,16010.02,16010.03,16010.04,16010.05,16010.06,16010.07,16010.08,16010.09,16010.10,16010.11",3
-210,TRANSPORT AND STORAGE,200,"21000,21005,21010,21020,21030,21040,21050,21061,21081",3
+210,Transport and storage,200,"21000,21005,21010,21020,21030,21040,21050,21061,21081",3
 22010,Communications policy and administrative management,220,"22010.01,22010.02,22010.03,22010.04",3
-22040,Information and communication technology (ICT),220,"22040.01,22040.02,22040.03,22040.04",3
+22040,Information and communication technology (ict),220,"22040.01,22040.02,22040.03,22040.04",3
 23005,"Energy generation and supply, purpose unspecified or does not fit under any other applicable codes",230,23005.01,3
 23010,Energy policy and administrative management,230,"23010.01,23010.02,23010.03,23010.04,23010.05",3
-230,ENERGY GENERATION AND SUPPLY,200,"23000,23005,23010,23020,23030,23040,23050,23055,23081,23082",3
+230,Energy generation and supply,200,"23000,23005,23010,23020,23030,23040,23050,23055,23081,23082",3
 23020,Power generation/non-renewable sources ,230,"23020.01,23020.02,23020.03,23020.04,23020.05,23020.06",3
 23030,Power generation/renewable sources ,230,"23030.01,23030.02,23030.03,23030.04,23030.05,23030.06,23030.07",3
 24005,"Banking and financial services, purpose unspecified or does not fit under any other applicable codes",240,24005.01,3
-240,BANKING AND FINANCIAL SERVICES,200,"24000,24005,24010,24020,24030,24040,24081",3
+240,Banking and financial services,200,"24000,24005,24010,24020,24030,24040,24081",3
 24010,Financial policy and administrative management,240,"24010.01,24010.02,24010.03,24010.04",3
 24040,Informal/semi-formal financial intermediaries,240,"24040.01,24040.02,24040.03",3
 24081,Education/training in banking and financial services,240,24081.01,3
@@ -74,20 +74,20 @@ code,name,parent,children,all_children_count
 313,Fishing,310,"31300,31305,31310,31320,31330,31381,31382,31391",3
 31310,Fishing policy and administrative management,313,"31310.01,31310.02,31310.03",3
 31320,Fishery development,313,"31320.01,31320.02,31320.03,31320.04,31320.05",3
-31330,Fishing Development,313,"31330.01,31330.02,31330.03",3
+31330,Fishing development,313,"31330.01,31330.02,31330.03",3
 31382,Fishery research,313,"31382.01,31382.02,31382.03",3
 31391,Fishery services,313,"31391.01,31391.02,31391.03,31391.04,31391.05",3
-320,"INDUSTRY, MINING, CONSTRUCTION",300,"32000,321,322,323",3
+320,"Industry, mining, construction",300,"32000,321,322,323",3
 32105,"Industry, purpose unspecified (includes manufacturing of goods not specified below) or does not fit under any other applicable codes",321,32105.01,3
 32110,Industrial policy and administrative management,321,"32110.01,32110.02,32110.03",3
 32120,Industrial development,321,"32120.01,32120.02,32120.03,32120.04,32120.05,32120.06,32120.07,32120.08,32120.09,32120.10,32120.11,32120.12,32120.13,32120.14,32120.15,32120.16,32120.17",3
-32130,Small and medium-sized enterprises (SME) development,321,"32130.01,32130.02",3
+32130,Small and medium-sized enterprises (sme) development,321,"32130.01,32130.02",3
 32182,Technological research and development,321,32182.01,3
 32191,Industry services,321,"32191.01,32191.02,32191.03,32191.04",3
 32205,"Mineral resources and mining, purpose unspecified or does not fit under any other applicable codes",322,32205.01,3
 322,Mineral resources and mining,320,"32200,32205,32210,32220,32281",3
 32210,Mineral/mining policy and administrative management,322,"32210.01,32210.02,32210.03,32210.04",3
-32220,Mineral/Metal prospection and exploration,322,"32220.01,32220.02,32220.03,32220.04,32220.05,32220.06,32220.07,32220.08,32220.09,32220.10,32220.11",3
+32220,Mineral/metal prospection and exploration,322,"32220.01,32220.02,32220.03,32220.04,32220.05,32220.06,32220.07,32220.08,32220.09,32220.10,32220.11",3
 32310,Construction policy and administrative management,323,"32310.01,32310.02",3
 33105,"Trade policy and regulations, purpose unspecified (includes trade and trade promotion activities) or does not fit under any other applicable codes",331,33105.01,3
 33110,Trade policy and administrative management,331,"33110.01,33110.02,33110.03,33110.04,33110.05",3
@@ -101,19 +101,19 @@ code,name,parent,children,all_children_count
 41050,Flood prevention/control,410,"41050.01,41050.02,41050.03",3
 41081,Environmental education/ training,410,41081.01,3
 41082,Environmental research,410,"41082.01,41082.02",3
-410,GENERAL ENVIRONMENTAL PROTECTION,400,"41000,41005,41010,41020,41030,41040,41050,41081,41082",3
+410,General environmental protection,400,"41000,41005,41010,41020,41030,41040,41050,41081,41082",3
 42010,Women in development,420,"42010.01,42010.02,42010.03,42010.04,42010.05,42010.06",3
 43030,Urban development and management,430,"43030.01,43030.02,43030.03,43030.04,43030.05,43030.06",3
 43040,Rural development,430,"43040.01,43040.02,43040.03,43040.04,43040.05,43040.06,43040.07,43040.08",3
-430,OTHER,400,"43010,43030,43040,43050,43081,43082",3
+430,Other,400,"43010,43030,43040,43050,43081,43082",3
 43050,Non-agricultural alternative development,430,"43050.01,43050.02",3
 51010,General budget support,510,"51010.01,51010.02,51010.03,51010.04,51010.05",3
-520,DEVELOPMENT AID/FOOD SECURITY ASSISTANCE,500,52010,3
-52010,Food aid/Food security programmes,520,"52010.01,52010.02,52010.03",3
+520,Development aid/food security assistance,500,52010,3
+52010,Food aid/food security programmes,520,"52010.01,52010.02,52010.03",3
 53030,Import support (capital goods),530,"53030.01,53030.02,53030.03",3
-530,OTHER COMMODITY ASSISTANCE,500,"53030,53040,53050",3
+530,Other commodity assistance,500,"53030,53040,53050",3
 53040,Import support (commodities),530,"53040.01,53040.02,53040.03,53040.04",3
-53050,Export Support,530,53050.01,3
+53050,Export support,530,53050.01,3
 60010,Action relating to debt,600,"60010.01,60010.02,60010.03,60010.04",3
 60020,Debt forgiveness ,600,"60020.01,60020.02",3
 60030,Relief of multilateral debt,600,60030.01,3
@@ -121,26 +121,26 @@ code,name,parent,children,all_children_count
 72010,Material relief assistance and services,720,72010.01,3
 72020,Emergency health services/support,720,72020.01,3
 72030,Water and sanitation services/support,720,72030.01,3
-720,EMERGENCY RESPONSE,700,"72000,72010,72020,72030,72040,72050",3
+720,Emergency response,700,"72000,72010,72020,72030,72040,72050",3
 72040,Emergency food aid,720,72040.01,3
 72050,Relief co-ordination; protection and support services,720,72050.01,3
-730,RECONSTRUCTION RELIEF,700,73010,3
+730,Reconstruction relief,700,73010,3
 73010,Reconstruction relief and rehabilitation,730,"73010.01,73010.02,73010.03,73010.04,73010.05",3
-740,DISASTER PREVENTION AND PREPAREDNESS,700,74010,3
+740,Disaster prevention and preparedness,700,74010,3
 74010,Disaster prevention and preparedness,740,"74010.01,74010.02,74010.03,74010.04,74010.05,74010.06,74010.07,74010.08,74010.09",3
 91010,Administrative costs,910,91010.01,3
 92005,"Support to non-governmental organizations and government organizations, purpose unspecified or does not fit under any other applicable codes",920,92005.01,3
-920,SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs) AND GOVERNMENT ORGANIZATIONS,900,"92000,92005,92010,92020,92030",3
-92030,Support to local and regional NGOs,920,92030.01,3
+920,Support to non- governmental organisations (ngos) and government organizations,900,"92000,92005,92010,92020,92030",3
+92030,Support to local and regional ngos,920,92030.01,3
 930,Refugees in donor countries,900,93010,3
-93010,Refugees in Donor Countries,930,93010.01,3
+93010,Refugees in donor countries,930,93010.01,3
 99810,Sectors not specified,998,99810.01,3
 99820,Promotion of development awareness,998,99820.01,3
-998,UNALLOCATED/  UNSPECIFIED,900,"99810,99820",3
+998,Unallocated/  unspecified,900,"99810,99820",3
 11105.01,"Education, level unspecified, activity unspecified or does not fit under any other applicable codes",11105,"",3
 11110.01,"Education policy and administrative management, activity unspecified or does not fit elsewhere in group",11110,"",3
 11110.02,"Education sector policy, planning and programmes",11110,"",3
-11110.03,"Institution capacity building, Education",11110,"",3
+11110.03,"Institution capacity building, education",11110,"",3
 11110.04,"Aid to education ministries, administration and management systems",11110,"",3
 11110.05,School management and governance,11110,"",3
 11110.06,Curriculum development ,11110,"",3
@@ -151,11 +151,11 @@ code,name,parent,children,all_children_count
 11120.06,"Colloquia, seminars, lectures, etc.",11120,"",3
 11130.01,"Teacher training, level unspecified, activities",11130,"",3
 11130.02,In-service and pre-service training,11130,"",3
-11130.03,Materials Development,11130,"",3
+11130.03,Materials development,11130,"",3
 11182.01,"Educational research, activity unspecified or does not fit elsewhere in group",11182,"",3
 11182.02,"Research and studies on education effectiveness, relevance and quality",11182,"",3
 11182.03,Systematic evaluation and monitoring,11182,"",3
-11220.01,"Basic/Primary education, activity unspecified or does not fit under any other applicable codes",11220,"",3
+11220.01,"Basic/primary education, activity unspecified or does not fit under any other applicable codes",11220,"",3
 11220.02,"Basic education, policy and administrative management",11220,"",3
 11220.03,Basic education infrastructure,11220,"",3
 11220.04,Formal and non-formal primary education for children,11220,"",3
@@ -188,12 +188,12 @@ code,name,parent,children,all_children_count
 11430.02,Professional-level vocational training programmes,11430,"",3
 11430.03,On the job training,11430,"",3
 11430.04,Apprenticeships,11430,"",3
-11430.05,Managerial Training,11430,"",3
+11430.05,Managerial training,11430,"",3
 12005.01,"Health, activity unspecified or does not fit under any other applicable codes",12005,"",3
 12105.01,"Health, general, activity unspecified",12105,"",3
 12110.01,"Health policy and administrative management, activity unspecified or does not fit elsewhere in group",12110,"",3
 12110.02,"Health sector policy, planning and programmes",12110,"",3
-12110.03,"Institution capacity building, Health general",12110,"",3
+12110.03,"Institution capacity building, health general",12110,"",3
 12110.04,"Aid to health ministries, public health administration",12110,"",3
 12110.05,Medical insurance programs,12110,"",3
 12181.01,All medical education/training activities,12181,"",3
@@ -218,7 +218,7 @@ code,name,parent,children,all_children_count
 12240.01,"Basic nutrition, activity unspecified or does not fit elsewhere in group",12240,"",3
 12240.02,Direct feeding programmes,12240,"",3
 12240.03,Monitoring of nutritional status,12240,"",3
-12240.04,"Provision of nutrients (vitamin A, iodine, iron)",12240,"",3
+12240.04,"Provision of nutrients (vitamin a, iodine, iron)",12240,"",3
 12240.05,Nutrition and food hygiene education,12240,"",3
 12240.06,Household food security,12240,"",3
 12250.01,All prevention and control activities,12250,"",3
@@ -235,7 +235,7 @@ code,name,parent,children,all_children_count
 13005.01,"Population policies/ programmes and reproductive health, activity unspecified ",13005,"",3
 13010.01,"Population policy and administrative management, activity unspecified or does not fit elsewhere in group",13010,"",3
 13010.02,Population/development policies,13010,"",3
-13010.03,"Institution capacity building, Population policy and reproductive health",13010,"",3
+13010.03,"Institution capacity building, population policy and reproductive health",13010,"",3
 13010.04,"Census work, vital registration",13010,"",3
 13010.05,Migration data,13010,"",3
 13010.06,Demographic research,13010,"",3
@@ -248,19 +248,19 @@ code,name,parent,children,all_children_count
 13020.06,Safe motherhood activities,13020,"",3
 13030.01,"Family planning, activity unspecified or does not fit elsewhere in group",13030,"",3
 13030.02,Family planning services ,13030,"",3
-13030.03,"Information, education and communication (IEC) activities",13030,"",3
+13030.03,"Information, education and communication (iec) activities",13030,"",3
 13030.04,Delivery of contraceptives,13030,"",3
 13030.05,Capacity building and training,13030,"",3
-13040.01,Unspecified STD and HIV/AIDS activities or does not fit elsewhere in group,13040,"",3
+13040.01,Unspecified std and hiv/aids activities or does not fit elsewhere in group,13040,"",3
 13040.02,"Information, education and communication",13040,"",3
 13040.03,Testing,13040,"",3
 13040.04,Prevention,13040,"",3
 13040.05,"Treatment, care",13040,"",3
-13081.01,"Staff education and training, P&R health care services",13081,"",3
-14005.01,"Water Supply and Sanitation, activity unspecified or does not fit under any other applicable codes",14005,"",3
+13081.01,"Staff education and training, p&r health care services",13081,"",3
+14005.01,"Water supply and sanitation, activity unspecified or does not fit under any other applicable codes",14005,"",3
 14010.01,"Water resources policy and administrative management, activity unspecified or does not fit elsewhere in group",14010,"",3
 14010.02,"Water sector policy, planning and programmes",14010,"",3
-14010.03,"Institution capacity building, Water",14010,"",3
+14010.03,"Institution capacity building, water",14010,"",3
 14015.01,"Water resources protection, activity unspecified or does not fit elsewhere in group",14015,"",3
 14015.02,Inland surface waters,14015,"",3
 14015.03,Water conservation,14015,"",3
@@ -289,7 +289,7 @@ code,name,parent,children,all_children_count
 15105.01,"Government and civil society, activity unspecified or does not fit under any other applicable codes",15105,"",3
 15110.01,"Economic and development policy/planning, activity unspecified or does not fit elsewhere in group",15110,"",3
 15110.02,"Macro-economic, fiscal and monetary policy and planning",15110,"",3
-15110.03,"Institutional capacity building, Government",15110,"",3
+15110.03,"Institutional capacity building, government",15110,"",3
 15110.04,Support to other ministries and government departments when sector cannot be specified,15110,"",3
 15110.05,Development planning and preparation of structural reforms,15110,"",3
 15120.01,"Public sector financial management, activity unspecified or does not fit elsewhere in group",15120,"",3
@@ -320,11 +320,11 @@ code,name,parent,children,all_children_count
 15210.01,"Security system management and reform, activity unspecified or does not fit elsewhere in group",15210,"",3
 15210.02,Other security assistance,15210,"",3
 15220.01,Support for civilian peace-building activities,15220,"",3
-15230.01,UN post-conflict peace-building activities,15230,"",3
-15240.01,"Reintegration and SALW control, activity unspecified or does not fit elsewhere in this group",15240,"",3
+15230.01,Un post-conflict peace-building activities,15230,"",3
+15240.01,"Reintegration and salw control, activity unspecified or does not fit elsewhere in this group",15240,"",3
 15240.02,Reintegration of demobilised military personnel into the economy,15240,"",3
 15240.03,Conversion of production facilities from military to civilian outputs,15240,"",3
-15240.04,"Assistance to control, prevent and/or reduce the proliferation of SALW",15240,"",3
+15240.04,"Assistance to control, prevent and/or reduce the proliferation of salw",15240,"",3
 15250.01,Explosive mine removal,15250,"",3
 15261.01,"Child soldiers, activity unspecified or does not fit elsewhere in group",15261,"",3
 15261.02,Support to prevent the recruitment of child soldiers,15261,"",3
@@ -338,7 +338,7 @@ code,name,parent,children,all_children_count
 16010.07,Culture and recreation,16010,"",3
 16010.08,Statistical capacity building,16010,"",3
 16010.09,Narcotics control,16010,"",3
-16010.10,Social mitigation of HIV/AIDS,16010,"",3
+16010.10,Social mitigation of hiv/aids,16010,"",3
 16010.11,Social infrastructure,16010,"",3
 16020.01,"Employment policy and administrative management, activity unspecified or does not fit elsewhere in group",16020,"",3
 16020.02,Employment policy and planning,16020,"",3
@@ -352,10 +352,10 @@ code,name,parent,children,all_children_count
 16030.03,Low-cost housing,16030,"",3
 16050.01,Basic multisector social services activities,16050,"",3
 16081.01,All social services education/training activities,16081,"",3
-21005.01,"Transport and Storage, activity unspecified or does not fit under any other applicable codes",21005,"",3
+21005.01,"Transport and storage, activity unspecified or does not fit under any other applicable codes",21005,"",3
 21010.01,"Transport and storage, activity unspecified or does not fit elsewhere in group",21010,"",3
 21010.02,"Transport sector policy, planning and programs",21010,"",3
-21010.03,"Institution capacity building, Transport",21010,"",3
+21010.03,"Institution capacity building, transport",21010,"",3
 21010.04,Aid to transport ministries,21010,"",3
 21020.01,"Road transport, activity unspecified or does not fit elsewhere in group",21020,"",3
 21020.02,"Road infrastructure, road vehicles",21020,"",3
@@ -376,7 +376,7 @@ code,name,parent,children,all_children_count
 22005.01,"Communications, activity unspecified or does not fit under any other applicable codes",22005,"",3
 22010.01,"Communications policy and administrative management, activity unspecified or does not fit elsewhere in group",22010,"",3
 22010.02,"Communications sector policy, planning and programs",22010,"",3
-22010.03,"Institution capacity building, Communications",22010,"",3
+22010.03,"Institution capacity building, communications",22010,"",3
 22010.04,Postal services development,22010,"",3
 22020.01,"Telecommunication, activity unspecified or does not fit elsewhere in group",22020,"",3
 22020.02,Telephone networks,22020,"",3
@@ -385,15 +385,15 @@ code,name,parent,children,all_children_count
 22030.01,Radio activities,22030,"",3
 22030.02,Television activities,22030,"",3
 22030.03,Print media activities,22030,"",3
-22040.01,"Information and communication technology (ICT), activity unspecified or does not fit elsewhere in group",22040,"",3
+22040.01,"Information and communication technology (ict), activity unspecified or does not fit elsewhere in group",22040,"",3
 22040.02,Computers ,22040,"",3
 22040.03,Internet access,22040,"",3
-22040.04,IT training,22040,"",3
+22040.04,It training,22040,"",3
 22081.01,All communications education/training activities,22081,"",3
 23005.01,"Energy generation and supply, activity unspecified or does not fit under any other applicable codes",23005,"",3
 23010.01,"Energy policy and administrative management, activity unspecified or does not fit elsewhere in group",23010,"",3
 23010.02,"Energy sector policy, planning and programs",23010,"",3
-23010.03,"Institution capacity building, Energy",23010,"",3
+23010.03,"Institution capacity building, energy",23010,"",3
 23010.04,Aid to energy ministries,23010,"",3
 23010.05,Energy conservation,23010,"",3
 23020.01,"Power generation/non-renewable sources, activity unspecified or does not fit elsewhere in group",23020,"",3
@@ -401,7 +401,7 @@ code,name,parent,children,all_children_count
 23020.03,Gas-fired power plants,23020,"",3
 23020.04,Coal-fired power plants,23020,"",3
 23020.05,Nuclear power plants,23020,"",3
-23020.06,Combined heat and power plants (CHP),23020,"",3
+23020.06,Combined heat and power plants (chp),23020,"",3
 23030.01,"Power generation/renewable sources, activity unspecified or does not fit elsewhere in group",23030,"",3
 23030.02,Hydro-electric power plants,23030,"",3
 23030.03,Geothermal energy,23030,"",3
@@ -420,7 +420,7 @@ code,name,parent,children,all_children_count
 24005.01,"Banking and financial services, activity unspecified or does not fit under any other applicable codes",24005,"",3
 24010.01,"Financial policy and administrative management, activity unspecified or does not fit elsewhere in group",24010,"",3
 24010.02,"Finance sector policy, planning and programs",24010,"",3
-24010.03,"Institution capacity building, Financial",24010,"",3
+24010.03,"Institution capacity building, financial",24010,"",3
 24010.04,Financial markets and systems,24010,"",3
 24020.01,All activities relating to monetary institutions,24020,"",3
 24030.01,"Other financial activities, or unspecified ",24030,"",3
@@ -432,7 +432,7 @@ code,name,parent,children,all_children_count
 24081.01,All banking and financial services education/training activities,24081,"",3
 25010.01,"Business support services and institutions, activity unspecified or does not fit elsewhere in group",25010,"",3
 25010.02,Support to trade and business associations,25010,"",3
-25010.03,"Institution capacity building, Business",25010,"",3
+25010.03,"Institution capacity building, business",25010,"",3
 25010.04,Business infrastructure,25010,"",3
 25010.05,Legal and regulatory reform,25010,"",3
 25010.06,Business information,25010,"",3
@@ -443,7 +443,7 @@ code,name,parent,children,all_children_count
 31105.01,"Agriculture, activity unspecified or does not fit under any other applicable codes",31105,"",3
 31110.01,"Agricultural policy and administrative management, activity unspecified or does not fit elsewhere in group",31110,"",3
 31110.02,"Agricultural sector policy, planning and programmes",31110,"",3
-31110.03,"Institution capacity building, Agriculture",31110,"",3
+31110.03,"Institution capacity building, agriculture",31110,"",3
 31110.04,Aid to agricultural ministries,31110,"",3
 31110.05,Agrarian reform,31110,"",3
 31120.01,"Agricultural development, activity unspecified or does not fit elsewhere in group",31120,"",3
@@ -471,7 +471,7 @@ code,name,parent,children,all_children_count
 31150.02,Supply of seeds,31150,"",3
 31150.03,Supply of fertilizers,31150,"",3
 31150.04,Agricultural machinery/equipment,31150,"",3
-31181.01,"Formal education/training, Agriculture",31181,"",3
+31181.01,"Formal education/training, agriculture",31181,"",3
 31181.02,Agricultural extension,31181,"",3
 31182.01,"Agricultural research, activity unspecified or does not fit elsewhere in group",31182,"",3
 31182.02,All plant research activities,31182,"",3
@@ -484,7 +484,7 @@ code,name,parent,children,all_children_count
 31205.01,"Forestry, activity unspecified or does not fit under any other applicable codes",31205,"",3
 31210.01,"Forestry policy and administrative management, activity unspecified or does not fit elsewhere in group",31210,"",3
 31210.02,"Forestry sector policy, planning and programs",31210,"",3
-31210.03,"Institution capacity building, Forestry",31210,"",3
+31210.03,"Institution capacity building, forestry",31210,"",3
 31210.04,Forest surveys,31210,"",3
 31220.01,"Forestry development, activity unspecified or does not fit elsewhere in group",31220,"",3
 31220.02,Afforestation ,31220,"",3
@@ -502,7 +502,7 @@ code,name,parent,children,all_children_count
 31305.01,"Fishing, activity unspecified or does not fit under any other applicable codes",31305,"",3
 31310.01,"Fishing policy and administrative management, activity unspecified or does not fit elsewhere in group",31310,"",3
 31310.02,"Fishing sector policy, planning and programs",31310,"",3
-31310.03,"Institution capacity building, Fishing",31310,"",3
+31310.03,"Institution capacity building, fishing",31310,"",3
 31320.01,"Fishery development, activity unspecified or does not fit elsewhere in this group",31320,"",3
 31320.02,Exploitation and utilization of fisheries,31320,"",3
 31320.03,Fish stock protection,31320,"",3
@@ -523,7 +523,7 @@ code,name,parent,children,all_children_count
 32105.01,"Industry, activity unspecified (includes manufacturing of goods not specified elsewhere) or does not fit under any other applicable codes",32105,"",3
 32110.01,"Industrial policy and administrative management, activities unspecified or does not fit elsewhere in group",32110,"",3
 32110.02,"Industrial sector policy, planning and programmes",32110,"",3
-32110.03,"Institution capacity building, Industry",32110,"",3
+32110.03,"Institution capacity building, industry",32110,"",3
 32120.01,"Industrial development, activity unspecified or does not fit elsewhere in group",32120,"",3
 32120.02,Modernization and rehabilitation,32120,"",3
 32120.03,Infrastructure,32120,"",3
@@ -541,7 +541,7 @@ code,name,parent,children,all_children_count
 32120.15,Non-ferrous metal industries,32120,"",3
 32120.16,Engineering,32120,"",3
 32120.17,Transport equipment industry,32120,"",3
-32130.01,"Support to SMEs, unspecified",32130,"",3
+32130.01,"Support to smes, unspecified",32130,"",3
 32130.02,"Accounting, auditing, advisory services",32130,"",3
 32140.01,"Cottage industries and handicraft, activities",32140,"",3
 32181.01,All industry education and training activities,32181,"",3
@@ -553,9 +553,9 @@ code,name,parent,children,all_children_count
 32205.01,"Mineral resources and mining, activity unspecified or does not fit under any other applicable codes",32205,"",3
 32210.01,"Mineral/mining policy and administrative management, activity unspecified or does not fit elsewhere in group",32210,"",3
 32210.02,"Mineral and mining sector policy, planning and programs",32210,"",3
-32210.03,"Institution capacity building, Mineral resources and mining",32210,"",3
+32210.03,"Institution capacity building, mineral resources and mining",32210,"",3
 32210.04,"Mining legislation, mining cadastre, mineral resources inventory, information systems",32210,"",3
-32220.01,"Mineral/Metal prospection and exploration, activity unspecified or does not fit elsewhere",32220,"",3
+32220.01,"Mineral/metal prospection and exploration, activity unspecified or does not fit elsewhere",32220,"",3
 32220.02,Coal,32220,"",3
 32220.03,Oil and gas,32220,"",3
 32220.04,Ferrous metals,32220,"",3
@@ -568,29 +568,29 @@ code,name,parent,children,all_children_count
 32220.11,"Mineral extraction and processing, infrastructure, technology, economics, safety and environment management",32220,"",3
 32281.01,All mining education/training activities,32281,"",3
 32310.01,"Construction policy and administrative management, activity unspecified or does not fit elsewhere",32310,"",3
-32310.02,"Institution capacity building, Construction",32310,"",3
+32310.02,"Institution capacity building, construction",32310,"",3
 33105.01,"Trade policy and regulations, activity unspecified (includes trade and trade promotion activities) or does not fit under any other applicable codes",33105,"",3
 33110.01,"Trade policy and administrative management, activity unspecified or does not fit elsewhere in this group",33110,"",3
 33110.02,Trade policy and planning,33110,"",3
-33110.03,"Institution capacity building, Trade",33110,"",3
+33110.03,"Institution capacity building, trade",33110,"",3
 33110.04,Trade-related legislation and regulatory reforms,33110,"",3
 33110.05,Multilateral trade agreements,33110,"",3
 33120.01,"Trade facilitation, activity unspecified or does not fit elsewhere in group",33120,"",3
 33120.02,Simplification and harmonisation of international import and export procedures ,33120,"",3
 33120.03,Support to customs departments,33120,"",3
 33120.04,Tariff reforms,33120,"",3
-33130.01,"Regional trade agreements (RTAs), activity unspecified or does not fit elsewhere in group",33130,"",3
+33130.01,"Regional trade agreements (rtas), activity unspecified or does not fit elsewhere in group",33130,"",3
 33130.02,Support to regional trade arrangements ,33130,"",3
 33140.01,All multilateral trade negotiations activities,33140,"",3
 33181.01,All trade education/training activities,33181,"",3
 33210.01,"Tourism policy and administrative management, activities unspecified or does not fit elsewhere in this group",33210,"",3
 33210.02,Tourism infrastructure,33210,"",3
-33210.03,"Institutional capacity building, Tourism",33210,"",3
+33210.03,"Institutional capacity building, tourism",33210,"",3
 33210.04,Tourism education/training activities,33210,"",3
 41005.01,"General environmental protection, activity unspecified (includes miscellaneous conservation and protection measures not mentioned below) or does not fit under any other applicable codes",41005,"",3
 41010.01,"Environmental policy and administrative management, activity unspecified or does not fit elsewhere in group",41010,"",3
 41010.02,"Environmental policy, laws, regulations and economic instruments",41010,"",3
-41010.03,"Institution capacity building, Environmental protection",41010,"",3
+41010.03,"Institution capacity building, environmental protection",41010,"",3
 41020.01,"Biosphere protection, activity unspecified or does not fit elsewhere in group",41020,"",3
 41020.02,Air pollution control,41020,"",3
 41020.03,Marine pollution control,41020,"",3
@@ -605,11 +605,11 @@ code,name,parent,children,all_children_count
 41082.01,All environmental research activities,41082,"",3
 41082.02,Environmental impact assessments,41082,"",3
 42010.01,"Women in development, activity unspecified or does not fit elsewhere in group",42010,"",3
-42010.02,Multisectoral WIB projects and programs,42010,"",3
-42010.03,"Institutional capacity building, WID",42010,"",3
-42010.04,Promotion of and support to WID groups and networks,42010,"",3
-42010.05,WID education/training,42010,"",3
-42010.06,WID financial services,42010,"",3
+42010.02,Multisectoral wib projects and programs,42010,"",3
+42010.03,"Institutional capacity building, wid",42010,"",3
+42010.04,Promotion of and support to wid groups and networks,42010,"",3
+42010.05,Wid education/training,42010,"",3
+42010.06,Wid financial services,42010,"",3
 43010.01,All unspecified multisector aid activities,43010,"",3
 43030.01,"Urban development and management, activity unspecified or does not fit elsewhere in this group",43030,"",3
 43030.02,Integrated urban development projects,43030,"",3
@@ -630,7 +630,7 @@ code,name,parent,children,all_children_count
 121,"Health, general",120,"12100,12105,12110,12181,12182,12191",3
 12261,Health education,122,"12261.01,12261.02,12261.03",3
 12281,Health personnel development,122,12281.01,3
-120,HEALTH,100,"12000,12005,121,122",3
+120,Health,100,"12000,12005,121,122",3
 11130,Teacher training,111,"11130.01,11130.02,11130.03",3
 112,Basic education,110,"11220,11230,11240",3
 113,Secondary education,110,"11320,11330",3
@@ -639,22 +639,22 @@ code,name,parent,children,all_children_count
 13081,Personnel development for population and reproductive health,130,13081.01,3
 14040,River development,140,"14040.01,14040.02,14040.03,14040.04",3
 14081,Education and training in water supply and sanitation ,140,14081.01,3
-14082,Water Research,140,"14082.01,14082.02",3
+14082,Water research,140,"14082.01,14082.02",3
 15210,Security system management and reform,152,"15210.01,15210.02",3
 15220,"Civilian peace-building, conflict prevention and resolution",152,15220.01,3
-15240,Reintegration and SALW control,152,"15240.01,15240.02,15240.03,15240.04",3
+15240,Reintegration and salw control,152,"15240.01,15240.02,15240.03,15240.04",3
 15250,Land mine clearance,152,15250.01,3
-150,GOVERNMENT AND CIVIL SOCIETY,100,"15000,151,152",3
+150,Government and civil society,100,"15000,151,152",3
 16081,"Other social infrastructure and services, education and training",160,16081.01,3
-160,OTHER SOCIAL INFRASTRUCTURE AND SERVICES,100,"16010,16020,16030,16050,16081",3
+160,Other social infrastructure and services,100,"16010,16020,16030,16050,16081",3
 21030,Rail transport,210,"21030.01,21030.02,21030.03",3
 21040,Water transport,210,"21040.01,21040.02,21040.03,21040.04",3
 22081,"Communications, education and training.",220,22081.01,3
 23081,Energy education/training,230,23081.01,3
 23082,Energy research,230,23082.01,3
-400,MULTISECTOR/CROSS-CUTTING,0,"410,420,430",3
-500,COMMODITY AID AND GENERAL PROGRAMME ASSISTANCE,0,"510,520,530",3
-600,ACTION RELATING TO DEBT,0,"60010,60020,60030,60040",3
+400,Multisector/cross-cutting,0,"410,420,430",3
+500,Commodity aid and general programme assistance,0,"510,520,530",3
+600,Action relating to debt,0,"60010,60020,60030,60040",3
 43050.01,"Non-agricultural alternative development, activity unspecified or does not fit elsewhere in group",43050,"",3
 43050.02,Non-agricultural projects to reduce illicit drug cultivation,43050,"",3
 43081.01,Multisector education/training activities,43081,"",3
@@ -664,7 +664,7 @@ code,name,parent,children,all_children_count
 51010.03,Support for implementation of macroeconomic reforms,51010,"",3
 51010.04,Balance of payments support,51010,"",3
 51010.05,General program assistance,51010,"",3
-52010.01,"Food aid/Food security programmes, activity unspecified",52010,"",3
+52010.01,"Food aid/food security programmes, activity unspecified",52010,"",3
 52010.02,Food supply,52010,"",3
 52010.03,Food security programs,52010,"",3
 53030.01,"Import support (capital goods), activity unspecified or does not fit elsewhere in group",53030,"",3
@@ -703,10 +703,10 @@ code,name,parent,children,all_children_count
 74010.09,Macroeconomic analysis,74010,"",3
 91010.01,All items relating to otherwise unspecified adminstrative costs of donors,91010,"",3
 92005.01,"Support to non-governmental organizations and government organizations, activity unspecified or does not fit under any other applicable codes",92005,"",3
-92010.01,All support to national NGOs activities,92010,"",3
-92020.01,All support to international NGOs activities,92020,"",3
-92030.01,All support to local and regional NGOs activities,92030,"",3
-93010.01,Refugees in Donor Country,93010,"",3
+92010.01,All support to national ngos activities,92010,"",3
+92020.01,All support to international ngos activities,92020,"",3
+92030.01,All support to local and regional ngos activities,92030,"",3
+93010.01,Refugees in donor country,93010,"",3
 99810.01,All other activities when sector is not specified,99810,"",3
 99820.01,All promotion of development awareness activities,99820,"",3
 11000,"Education, combinations of purposes",110,"",3
@@ -714,26 +714,26 @@ code,name,parent,children,all_children_count
 12000,"Health, combination of general, basic, and population policy/reproductive health purposes",120,"",3
 12100,"Health, general, combinations of activities",121,"",3
 13000,"Population policies/ programmes and reproductive health, combinations of activities",130,"",3
-14000,"Water Supply and Sanitation, combination of purposes",140,"",3
+14000,"Water supply and sanitation, combination of purposes",140,"",3
 15000,"Government and civil society, combination of activities",150,"",3
 15100,"Government and civil society, general, combination of activities",151,"",3
 15200,"Conflict prevention and resolution, peace and security, combinations of activities",152,"",3
-21000,"Transport and Storage, combination of purposes",210,"",3
+21000,"Transport and storage, combination of purposes",210,"",3
 22000,"Communications, combinations of activities",220,"",3
 23000,"Energy generation and supply, combinations of activities",230,"",3
 24000,"Banking and financial services, combinations of activities",240,"",3
-31000,"Agriculture, combination of purposes in Agriculture, Forestry, Fishing",310,"",3
-31100,"Agriculture, combinations of purposes in Agriculture, Agro-industry, Agribusiness",311,"",3
+31000,"Agriculture, combination of purposes in agriculture, forestry, fishing",310,"",3
+31100,"Agriculture, combinations of purposes in agriculture, agro-industry, agribusiness",311,"",3
 31300,"Fishing, combination of activities",313,"",3
-32000,"Industry, combination of purposes Industry, Mining and Construction",320,"",3
+32000,"Industry, combination of purposes industry, mining and construction",320,"",3
 32200,"Mineral resources and mining, combination of purposes",322,"",3
 33100,"Trade policy and regulations, combination of purposes",331,"",3
 41000,"General environmental protection, combinations of purposes",410,"",3
-70000,"Emergency Assistance and Reconstruction, combinations of purposes",700,"",3
-72000,"Emergency Response, combination of purposes",720,"",3
+70000,"Emergency assistance and reconstruction, combinations of purposes",700,"",3
+72000,"Emergency response, combination of purposes",720,"",3
 92000,"Support to non-governmental organizations and government organizations, combination of purposes",920,"",3
-0,All Codes,,"100,200,300,400,500,600,700,900",3
-900,OTHER,0,"910,920,930,998",3
+0,All codes,,"100,200,300,400,500,600,700,900",3
+900,Other,0,"910,920,930,998",3
 12005,"Health, purpose unspecified or does not fit under any other applicable codes",120,12005.01,3
 12105,"Health, general, purpose unspecified or does not fit under any other applicable codes",121,12105.01,3
 12110,Health policy and administrative management,121,"12110.01,12110.02,12110.03,12110.04,12110.05",3
@@ -741,7 +741,7 @@ code,name,parent,children,all_children_count
 12220,Basic health care,122,"12220.01,12220.02,12220.03,12220.04,12220.05",3
 12230,Basic health infrastructure,122,"12230.01,12230.02,12230.03",3
 12240,Basic nutrition,122,"12240.01,12240.02,12240.03,12240.04,12240.05,12240.06",3
-12250,Infectious & Parasitic disease control,122,"12250.01,12250.02,12250.03,12250.04,12250.05,12250.06,12250.07",3
+12250,Infectious & parasitic disease control,122,"12250.01,12250.02,12250.03,12250.04,12250.05,12250.06,12250.07",3
 122,Basic health,120,"12220,12230,12240,12250,12261,12281",3
 11105,"Education, level unspecified, purpose unspecified or does not fit under any other applicable codes",111,11105.01,3
 11110,Education policy and administrative management,111,"11110.01,11110.02,11110.03,11110.04,11110.05,11110.06",3
@@ -755,19 +755,19 @@ code,name,parent,children,all_children_count
 11330,Vocational training,113,"11330.01,11330.02,11330.03,11330.04",3
 11420,Higher education,114,"11420.01,11420.02,11420.03,11420.04,11420.05,11420.06,11420.07",3
 11430,Advanced technical and managerial training,114,"11430.01,11430.02,11430.03,11430.04,11430.05",3
-110,EDUCATION,100,"11000,111,112,113,114",3
+110,Education,100,"11000,111,112,113,114",3
 13005,"Population policies/ programmes and reproductive health, purpose unspecified or does not fit under any other applicable codes",130,13005.01,3
 13010,Population policy and administrative management,130,"13010.01,13010.02,13010.03,13010.04,13010.05,13010.06,13010.07",3
 13020,Reproductive health care,130,"13020.01,13020.02,13020.03,13020.04,13020.05,13020.06",3
-13040,STD control including HIV/AIDS,130,"13040.01,13040.02,13040.03,13040.04,13040.05",3
-130,POPULATION POLICIES/ PROGRAMMES AND REPRODUCTIVE HEALTH,100,"13000,13005,13010,13020,13030,13040,13081",3
-14005,"Water Supply and Sanitation, purpose unspecified or does not fit under any other applicable codes",140,14005.01,3
+13040,Std control including hiv/aids,130,"13040.01,13040.02,13040.03,13040.04,13040.05",3
+130,Population policies/ programmes and reproductive health,100,"13000,13005,13010,13020,13030,13040,13081",3
+14005,"Water supply and sanitation, purpose unspecified or does not fit under any other applicable codes",140,14005.01,3
 14010,Water resources policy and administrative management,140,"14010.01,14010.02,14010.03",3
 14015,Water resources protection,140,"14015.01,14015.02,14015.03,14015.04",3
 14020,Water supply and sanitation - large systems,140,"14020.01,14020.02,14020.03,14020.04,14020.05,14020.06",3
 14030,Basic drinking water supply and basic sanitation,140,"14030.01,14030.02,14030.03",3
 14050,Waste management/disposal,140,"14050.01,14050.02,14050.03,14050.04,14050.05",3
-140,WATER SUPPLY AND SANITATION,100,"14000,14005,14010,14015,14020,14030,14040,14050,14081,14082",3
+140,Water supply and sanitation,100,"14000,14005,14010,14015,14020,14030,14040,14050,14081,14082",3
 15105,"Government and civil society, purpose unspecified or does not fit under any other applicable codes",151,15105.01,3
 15110,Economic and development policy/planning,151,"15110.01,15110.02,15110.03,15110.04,15110.05",3
 15120,Public sector financial management,151,"15120.01,15120.02,15120.03,15120.04",3
@@ -778,13 +778,13 @@ code,name,parent,children,all_children_count
 15205,"Conflict prevention and resolution, peace and security, purpose unspecified or does not fit under any other applicable codes",152,15205.01,3
 152,"Conflict prevention and resolution, peace and security",150,"15200,15205,15210,15220,15230,15240,15250,15261",3
 16020,Employment policy and administrative management,160,"16020.01,16020.02,16020.03,16020.04,16020.05,16020.06,16020.07",3
-100,SOCIAL INFRASTRUCTURE AND SERVICES,0,"110,120,130,140,150,160",3
-21005,"Transport and Storage, purpose unspecified or does not fit under any other applicable codes",210,21005.01,3
+100,Social infrastructure and services,0,"110,120,130,140,150,160",3
+21005,"Transport and storage, purpose unspecified or does not fit under any other applicable codes",210,21005.01,3
 21010,Transport policy and administrative management,210,"21010.01,21010.02,21010.03,21010.04",3
 21050,Air transport,210,"21050.01,21050.02,21050.03",3
 21081,Education and training in transport and storage,210,21081.01,3
 22005,"Communications, purpose unspecified or does not fit under any other applicable codes",220,22005.01,3
 22020,Telecommunications,220,"22020.01,22020.02,22020.03,22020.04",3
 22030,Radio/television/print media,220,"22030.01,22030.02,22030.03",3
-220,COMMUNICATIONS,200,"22000,22005,22010,22020,22030,22040,22081",3
-200,ECONOMIC INFRASTRUCTURE AND SERVICES,0,"210,220,230,240,250",3
+220,Communications,200,"22000,22005,22010,22020,22030,22040,22081",3
+200,Economic infrastructure and services,0,"210,220,230,240,250",3

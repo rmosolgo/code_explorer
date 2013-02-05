@@ -22,7 +22,7 @@ no_codes_error = ' { "error" : "No codes found." }'
 
 
 get '/' do
-	erb :explorer4
+	erb :explorer
 end
 
 
